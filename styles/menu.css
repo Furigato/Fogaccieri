@@ -1,0 +1,243 @@
+*{
+    background-color: black;
+    margin: 0;
+}
+hr{
+    width: 100%;
+	border: 0;
+	border-top: 1px solid white;
+}
+
+.divisao{
+    color:white;
+    padding: 2%;
+}
+.divisao ul li{
+    list-style: none;
+}
+.divisao li{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height: 45vh;
+    width: 80%;
+    max-width: 1280px;
+}
+
+
+/* .filter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter img{
+    display: flex;
+    width: 2%;
+    height: 2%;
+    margin-right: 10px;
+}
+
+.filter select{
+    display: flex;
+    width: fit-content;
+} */
+
+hr{
+    width: 100%;
+	border: 0;
+	border-top: 1px solid white;
+}
+ #page-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+ }
+
+#page-menu h1{
+    color: white;
+
+}
+
+.divisao{
+    color:white;
+    padding: 2%;
+}
+.divisao ul li{
+    list-style: none;
+}
+.divisao li{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+/* .img{
+
+    background-image: url(../images/cardapio-img.jpg);
+    height: 45vh;
+    width: 80%;
+    max-width: 1280px;
+} */
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    background: white;
+    margin: 30px 100px 10px 100px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.400);
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+}
+
+.item .container{
+    margin: 0;
+    padding:16px;
+    align-self: center;
+    background-color: white;
+}
+
+.item .container h4{
+    background-color: white;
+}
+
+.item .container h4 b, p{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.main .item img{
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+
+ .cardapio-h1{
+    text-align: center;
+    font-family: 'Italiana', sans-serif;
+}
+
+form  {
+    margin-top: 10px;
+    color: wheat;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form{
+    justify-content: center;
+}
+
+.form a{
+    display: flex;
+    justify-content: center;
+}
+
+.form button{
+    background-color: transparent;
+    border-radius: 6px 6px;
+    border-color: wheat;
+    color: wheat;
+    padding: 4px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form select{
+    border-radius: 2px 2px;
+    border-color: wheat;
+    color: wheat;
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.form label{
+    font-family: "Italiana", sans-serif;
+    font-size: 18px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 960px;
+    margin: 0 auto;
+    border-color: wheat;
+    border-width: 10px;
+    text-align: justify;
+}
+
+.list1{
+    display: grid;
+    width: 960px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+
+.list1 p{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+
+}
+
+
+.list p{
+    color: white;
+    background-color: black;
+    text-align: justify;
+}
+
+.imgzapzap:hover img{
+    width: 12%;
+    transition: 0.3s;
+}
+
+.imgzapzap:hover p{
+    font-size: 30px;
+    margin-top: 3%;
+    transition: 0.3s;
+}
+
+.imgzapzap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imgzapzap img{
+
+    width: 10%;
+    transition: 0.3s;
+}
+
+.imgzapzap p{
+    color: wheat;
+    font-size: 16px;
+    background-color: black;
+    margin: 15px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+.botaoezap a{
+    text-decoration: none;
+}

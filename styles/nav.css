@@ -1,0 +1,136 @@
+
+body header img{
+    width: 10%;
+    height: 10%;
+}
+
+li, a, button{
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-size: 18.5px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav__links{
+    list-style: none;
+    margin-top: 3%;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3 ease 0s;
+    transition: 200ms;
+}
+.nav__links li a:hover{
+    color: wheat;
+    transition: 200ms;
+    text-decoration: none;
+}
+button{
+    padding: 5px 15px;
+    border: 1px solid white;
+    background-color: #0e0c0c;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    transition: 200ms;
+}
+
+button:hover{
+    transition: 200ms;
+    background-color: #3e4042;
+}
+ /* .line{
+width: 112px;
+height: 47px;
+border-bottom: 1px solid black;
+position: absolute;
+} */
+
+.sel{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fff;
+}
+
+/* nav li>a{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fff;
+} */
+
+
+#page-home{
+    color: white;
+} 
+
+.title{
+    align-items: center;
+    font-family: 'Italiana', sans-serif;
+}
+
+.separator{
+    background: wheat;
+    height: 5px;
+}
+
+.page1{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.page1 img{
+    align-self: center;
+    width: 35%;
+    height: 35%;
+}
+
+.separator + h1{
+    margin-top: 18px;
+}
+
+.page1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: wheat;
+}
+
+.separatorvert{
+    width: 5px;
+    background: wheat;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.items{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flag{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+
+}
+
+.flag img{
+    width: 40%;
+    height: 80%;
+}

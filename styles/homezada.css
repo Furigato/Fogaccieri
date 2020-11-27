@@ -1,0 +1,68 @@
+
+*{
+    background-color: black;
+}
+
+#page-home h1{
+    font-family: "italiana", sans-serif;
+    padding: 10px;
+}
+
+.page1{
+    color: whitesmoke;
+    padding: 10px;
+} 
+
+.title{
+    align-items: center;
+    font-family: 'Italiana', sans-serif;
+}
+
+.ending{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 2%;
+
+}
+
+.ending img{
+    border-radius: 50%;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ending h1{
+    flex-direction: column;
+    text-align: center;
+}
+
+.adms{
+    text-align: center;
+}
+
+.separator2{
+    margin: 5% 10% 0 10%;
+    background: wheat;
+    height: 2px;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-networks a{
+    width: 10%;
+    margin: 0 2% 0 2%;
+}
+
+.social-networks img{
+    width: 100%;
+    margin: 0 2% 0 2%;
+}

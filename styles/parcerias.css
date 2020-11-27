@@ -1,0 +1,40 @@
+*{
+  background-color: black;
+}
+.row{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+}
+
+.row img{
+  display: flex;
+  border-radius: 6px;
+  width: 30%;
+  height: 20%;
+  border: 1px solid white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.separator{
+  margin: 5% 10% 0 10%;
+  background: wheat;
+  height: 2px;
+}
+
+.plano-de-negocios{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Italiana', sans-serif;
+  justify-content: center;
+
+  margin-top: 5%;
+}
